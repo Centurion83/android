@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid Mod additions -->
+  <!-- crDroid Fonts -->
+  <project path="packages/apps/crDroidFonts" name="1582130940/android_packages_apps_crDroidFonts" remote="crdroid" />
+
+  <!-- Google Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r346389" name="1582130940/android_prebuilts_clang_host_linux-x86_clang-r346389" clone-depth="1" remote="github" revision="8.1" />
+
+</manifest>
