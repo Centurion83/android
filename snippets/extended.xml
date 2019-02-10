@@ -18,4 +18,8 @@
   <!-- Third-Party -->
   <project path="vendor/thirdparty" name="1582130940/android_vendor_thirdparty" clone-depth="1" remote="github" revision="9.0" />
 
+  <!-- LineageOS -->
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
+
 </manifest>
