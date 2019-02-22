@@ -19,7 +19,11 @@
   <project path="vendor/thirdparty" name="1582130940/android_vendor_thirdparty" clone-depth="1" remote="github" revision="9.0" />
 
   <!-- LineageOS -->
+  <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
+  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" />
+  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
 </manifest>
