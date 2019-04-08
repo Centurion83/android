@@ -18,6 +18,9 @@
   <!-- Third-Party -->
   <project path="vendor/thirdparty" name="1582130940/android_vendor_thirdparty" clone-depth="1" remote="github" revision="9.0" />
 
+  <!-- Gms -->
+  <project path="vendor/gms" name="1582130940/android_vendor_gms" clone-depth="1" remote="github" revision="9.0" />
+
   <!-- LineageOS -->
   <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
