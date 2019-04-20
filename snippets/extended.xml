@@ -2,6 +2,9 @@
 <manifest>
 
   <!-- crDroid Mod additions -->
+  <!-- crDroid bionic -->
+  <project path="bionic" name="crDroidMod/android_bionic" remote="crdroid" />
+
   <!-- crDroid Fonts -->
   <project path="packages/apps/crDroidFonts" name="crDroidMod/android_packages_apps_crDroidFonts" remote="crdroid" />
 
