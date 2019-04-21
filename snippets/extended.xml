@@ -2,6 +2,12 @@
 <manifest>
 
   <!-- crDroid Mod additions -->
+  <project path="build/soong" name="crDroidMod/android_build_soong" remote="crdroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="android" name="crDroidMod/android" remote="crdroid" />
   <project path="bionic" name="crDroidMod/android_bionic" remote="crdroid" />
   <project path="packages/apps/crDroidFonts" name="crDroidMod/android_packages_apps_crDroidFonts" remote="crdroid" />
   <project path="vendor/addons" name="crDroidMod/android_vendor_addons" remote="crdroid" />
