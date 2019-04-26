@@ -2,12 +2,14 @@
 <manifest>
 
   <!-- crDroid Mod additions -->
+  <project path="art" name="crDroidMod/android_art" remote="github" revision="9.0" />
+  <project path="android" name="crDroidMod/android" remote="github" revision="9.0" />
+  <project path="bionic" name="crDroidMod/android_bionic" remote="github" revision="9.0" />
   <project path="build/soong" name="crDroidMod/android_build_soong" remote="github" revision="9.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="android" name="crDroidMod/android" remote="github" revision="9.0" />
-  <project path="bionic" name="crDroidMod/android_bionic" remote="github" revision="9.0" />
+  <project path="dalvik" name="crDroidMod/android_dalvik" remote="github" revision="9.0" />
   <project path="external/arm-optimized-routines" name="crDroidMod/android_external_arm-optimized-routines" remote="github" revision="9.0" />
   <project path="packages/apps/crDroidFonts" name="crDroidMod/android_packages_apps_crDroidFonts" remote="github" revision="9.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5484270" clone-depth="1" remote="github" revision="9.0" />
