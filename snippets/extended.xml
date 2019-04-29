@@ -34,4 +34,7 @@
   <!--<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 
+  <!-- Google AOSP -->
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="master" />
+
 </manifest>
