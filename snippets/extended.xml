@@ -12,7 +12,7 @@
   <project path="dalvik" name="crDroidMod/android_dalvik" remote="github" revision="9.0" />
   <project path="external/arm-optimized-routines" name="crDroidMod/android_external_arm-optimized-routines" remote="github" revision="9.0" />
   <project path="packages/apps/crDroidFonts" name="crDroidMod/android_packages_apps_crDroidFonts" remote="github" revision="9.0" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5484270" clone-depth="1" remote="github" revision="9.0" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5657785" clone-depth="1" remote="github" revision="9.0" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-4.9.4" name="crDroidMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-4.9.4" clone-depth="1" remote="github" revision="8.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-6.5.0" name="crDroidMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.5.0" clone-depth="1" remote="github" revision="8.1" />
   <project path="vendor/addons" name="crDroidMod/android_vendor_addons" remote="github" revision="9.0" />
