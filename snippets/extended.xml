@@ -11,6 +11,7 @@
   </project>
   <project path="dalvik" name="crDroidMod/android_dalvik" remote="github" revision="9.0" />
   <project path="external/arm-optimized-routines" name="crDroidMod/android_external_arm-optimized-routines" remote="github" revision="9.0" />
+  <project path="external/noto-fonts" name="crDroidMod/android_external_noto-fonts" remote="github" revision="master" />
   <project path="packages/apps/crDroidFonts" name="crDroidMod/android_packages_apps_crDroidFonts" remote="github" revision="9.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5657785" clone-depth="1" remote="github" revision="9.0" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-4.9.4" name="crDroidMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-4.9.4" clone-depth="1" remote="github" revision="8.1" />
@@ -33,8 +34,5 @@
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <!--<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
-
-  <!-- Google AOSP -->
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="master" />
 
 </manifest>
