@@ -12,6 +12,8 @@
   <project path="dalvik" name="crDroidMod/android_dalvik" remote="github" revision="9.0" />
   <project path="external/arm-optimized-routines" name="crDroidMod/android_external_arm-optimized-routines" remote="github" revision="9.0" />
   <project path="external/noto-fonts" name="crDroidMod/android_external_noto-fonts" remote="github" revision="master" />
+  <project path="hardware/broadcom/libbt" name="crDroidMod/android_hardware_broadcom_libbt" remote="github" revision="9.0" />
+  <project path="hardware/broadcom/wlan" name="crDroidMod/android_hardware_broadcom_wlan" remote="github" revision="9.0" />
   <project path="packages/apps/crDroidFonts" name="crDroidMod/android_packages_apps_crDroidFonts" remote="github" revision="9.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-5696680" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5696680" clone-depth="1" remote="github" revision="9.0" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-4.9.4" name="crDroidMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-4.9.4" clone-depth="1" remote="github" revision="8.1" />
@@ -22,8 +24,6 @@
   <project path="vendor/thirdparty" name="crDroidMod/android_vendor_thirdparty" clone-depth="1" remote="github" revision="9.0" />
 
   <!-- LineageOS -->
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8998" />
   <!--<project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-845" />-->
   <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8998" />
