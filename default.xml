@@ -25,6 +25,12 @@
            sync-j="16"
            revision="refs/heads/9.0" />
 
+  <remote  name="crdroidmod"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="16"
+           revision="refs/heads/9.0" />
+
   <!-- AOSP Projects -->
 
   <!--<project path="build/make" name="LineageOS/android_build" groups="pdk" >
